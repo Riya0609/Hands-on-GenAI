@@ -64,19 +64,3 @@ streamlit run MultimodalApp.py
 
 ## 📌 Live Demo
 🔗 Try it out: https://multimodal-ai-playground.streamlit.app
-
-📂 Project Structure
-
-.
-├── MultimodalApp.py               # Main entry point
-
-├── pages
-    ├── 1_Image_Generator.py             # AI Image Generator tool
-    ├── 2_Image_Caption_Generator.py   # AI Image Captioning tool
-    ├── 3_Youtube_Video_Summarizer.py  # YouTube Video Summarizer
-    
-├── utils.py                       # Gemini client utility
-
-├── .env                           # API key storage (not shared)
-
-└── requirements.txt               # Required Python packages
